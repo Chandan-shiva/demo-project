@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "name": "chandan",
+      "number": "9856889787",
+      "id": "1",
+      "email": "chandanpathak1998@gmail.com",
+      "password": "0000"
+    },
+    {
+      "name": "Akshat",
+      "number": "8856889786",
+      "id": "2",
+      "email": "akshat@gmail.com",
+      "password": "0000"
+    },
+    {
+      "id": 3,
+      "name": "Ajay raj",
+      "number": "654654654",
+      "email": "Ajay@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 4,
+      "name": "Ragini",
+      "number": "546546465",
+      "email": "ragini@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 5,
+      "name": "Abhay",
+      "number": "0000000",
+      "email": "abhay@gmail.com",
+      "password": "21321"
+    },
+    {
+      "id": 6,
+      "name": "Ragini ",
+      "number": "7878984545",
+      "email": "rr@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 7,
+      "name": "Chandan Pathak",
+      "number": "8319269583",
+      "email": "chandanpathak2511@gmail.com",
+      "password": "12345"
+    }
+  ]
+}

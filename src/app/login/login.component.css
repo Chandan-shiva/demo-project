@@ -1,0 +1,83 @@
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-container {
+width: 300px;
+padding: 20px;
+background: white;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+.pass-and-forgetpass{
+    display: flex;
+    justify-content: space-between;
+}
+.pass-and-forgetpass >p{
+    font-size: small;
+    cursor: pointer;
+}
+
+input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+
+input:focus {
+border-color: #007bff;
+outline: none;
+}
+
+.error {
+color: red;
+font-size: 12px;
+display: none;
+}
+
+input:invalid ~ .error {
+display: block; 
+}
+
+.btn {
+width: 100%;
+padding: 10px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.btn:hover {
+background-color: #0056b3;
+}
+
+.register{
+    font-size: small;
+    text-align: center;
+    margin-top: 10px;
+}
+.register > p > span{
+    color: red;
+    cursor: pointer;
+}

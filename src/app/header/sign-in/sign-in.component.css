@@ -1,0 +1,25 @@
+.card {
+    max-width: 400px;
+    margin:  auto;
+    padding: 20px;
+    text-align: center;
+}
+
+mat-form-field {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+}
+.forget-pass-container{
+    display: flex;
+    justify-content: end;
+}
+.forget-pass{
+    font-size: small;
+    align-items: end;
+    cursor: pointer;
+}
+

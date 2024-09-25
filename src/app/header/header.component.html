@@ -1,0 +1,13 @@
+<div class="navbar">
+    <h1> MyApp</h1>
+    <div class="nav-search">
+         <input type="text" />
+         <button>Search</button>
+    </div>
+    <div class="nav-elements">
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">HOME</a>
+        <a routerLink="about" routerLinkActive="active">ABOUT</a>
+        <a routerLink="userlist" routerLinkActive="active">USER LIST</a>
+        <button mat-flat-button color="primary" (click)="handleSignInDialog()" > Login/SignUp</button>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+.navbar{
+    box-shadow: 0px 0px 30px 10px rgb(214, 252, 214) ,inset -30px -30px 30px 10px rgb(214, 252, 214);
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 20px 20px;
+    width: 100vw;
+    background-color: rgb(226, 251, 243);
+    justify-content: space-between;
+}
+.navbar > h1{
+    font-family: "Concert One", sans-serif;
+}
+.nav-search{
+    padding: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.nav-search > input{
+    border: none;
+    padding: 10px;
+}
+.nav-search > input:focus{
+    outline: none;
+}
+.nav-search > button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: chartreuse;
+    color: white;
+    
+}
+.nav-elements{
+    display: flex;
+    gap: 10px;
+}
+
+.nav-elements > a{
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: small;
+}
+
+.active{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+
+}

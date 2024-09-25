@@ -1,0 +1,14 @@
+.page-not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h4{
+    font-size: larger;
+    font-weight: 700;
+}
+.text-404{
+    color: orange;
+}
